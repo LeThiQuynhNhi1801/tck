@@ -1,0 +1,36 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form__Data">
+		<label>Nhap id :</label>
+        <input type="text" placeholder="nhap id" id = "id">
+        <p id = "iderror"></p>
+        <br><br>
+        <label>Nhap ten :</label>
+        <input type="text" placeholder="nhap name" id ="name">
+        <p id = "nameerror"></p>
+        <br><br>
+        <label>Nhap ngay sinh : </label>
+        <input type="date" placeholder="nhap dob" id="dob">
+        <p id="doberror"></p>
+        <br><br>
+        <label>nhap lop :</label>
+        <select id="department">
+        <option value="lop 4">lop 4</option>
+        <option value="lop 3">lop 3</option>
+        <option value="lop 2">lop 2</option>
+        <option value="lop 1" selected>lop 1</option>
+        </select>
+        <br><br>
+        <input type="button" onclick="check()" value="Add">
+        <input type="reset" onclick="Reset()" value="Reset">
+    </div>
+</body>
+<script src="home.js"></script>
+</html>
